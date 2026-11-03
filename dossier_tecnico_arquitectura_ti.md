@@ -1,9 +1,14 @@
-# Dossier Técnico y Estratégico: Plataforma SaaS de Trazabilidad y Reportabilidad de Huella de Carbono para Proveedores Mineros
+# Dossier Técnico y Arquitectura: SaaS de Huella de Carbono para Minería
 
-**Documento para:** Asesor de TI, Arquitecto de Software e Ingeniero de Sistemas  
-**Entidad Desarrolladora:** Grupo Verdical SpA (Empresa B - Antofagasta)  
-**Marco de Financiamiento:** Línea "Crea y Valida 2026" (Comité de Desarrollo Productivo Regional Antofagasta / Corfo)  
-**Trayectoria Tecnológica:** TRL 4 (Laboratorio validado) $\rightarrow$ TRL 7 (Sistema integrado y validado en entorno operacional con 6 contratistas mineros)
+> **¡Hola Luchito!**  
+> Preparé este dossier técnico y estratégico para que puedas revisar de primera mano la arquitectura, los requerimientos de sistemas y la ruta tecnológica del proyecto que postulamos al **Crea y Valida 2026 de Corfo Antofagasta**.  
+> La meta es clara: escalar desde lo que ya probamos en laboratorio (**TRL 4**) hasta un SaaS robusto y validado en faena real con 6 contratistas mineros (**TRL 7**). Tu ojo técnico aquí es clave para afinar cada componente.
+
+**Preparado para:** Luis "Luchito" (Asesor Tecnológico & Aliado TI)  
+**Titular del Proyecto:** Grupo Verdical SpA (Empresa B - Antofagasta)  
+**Financiamiento:** Fondo "Crea y Valida 2026" (Comité de Desarrollo Productivo Regional Antofagasta)  
+**Horizonte de Desarrollo:** 24 Meses (con Hito Crítico de Continuidad en Mes 12)  
+**Evolución Tecnológica:** TRL 4 (Laboratorio validado) $\rightarrow$ TRL 7 (Operacional en terreno con 6 empresas)
 
 ---
 
@@ -327,8 +332,8 @@ A continuación se presentan los mockups conceptuales de las tres vistas central
 
 ---
 
-## 6. Pasos Inmediatos para el Equipo de Ingeniería
+## 6. Siguientes Pasos & Qué Necesitamos Evaluar Juntos (Feedback de Luchito)
 
-1. **Reunión de Alineamiento de Arquitectura:** Revisar los servicios propuestos en AWS (arquitectura serverless vs. contenedores ECS/Fargate) para optimizar costos durante los primeros 12 meses de I+D.
-2. **Evaluación de Modelos de Extracción:** Seleccionar el modelo de visión multimodal base para las pruebas de extracción sobre las primeras 200 facturas/guías de despacho del set de datos de prueba de Verdical.
-3. **Esquematización de Base de Datos:** Definir el modelo entidad-relación (ERD) en PostgreSQL para asegurar que cada línea de consumo guarde trazabilidad inmutable con el documento fuente (factura) y el factor de emisión correspondiente.
+1. **Revisión de Arquitectura Cloud:** Analizar los servicios propuestos en AWS (arquitectura serverless vs. contenedores ECS/Fargate) para optimizar costos de infraestructura durante los primeros 12 meses de I+D.
+2. **Evaluación de Modelos de Extracción (LLM vs Document AI):** Definir el modelo de visión multimodal base para las pruebas sobre las facturas y guías de faena del set de datos de prueba de Verdical.
+3. **Diseño del Esquema de Datos:** Validar el modelo entidad-relación (PostgreSQL) para asegurar trazabilidad inmutable entre cada cálculo de $CO_2e$, el factor oficial aplicado y el documento fuente.
