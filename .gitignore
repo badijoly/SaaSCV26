@@ -1,0 +1,16 @@
+# Archivos locales de trabajo, scripts temporales y bases de concurso
+Bases/
+Sobre Verdical/
+Formulario de postulación/
+Divagando una idea/
+*.js
+*.json
+*.bin
+*.txt
+postulacion_temp.html
+*.pdf
+Borrador_Oficial_*
+Documento_Discusion_*
+Dossier_Maduracion_*
+Propuesta_Crea_*
+primer borrador*
