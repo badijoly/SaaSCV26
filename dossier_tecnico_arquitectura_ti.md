@@ -1,14 +1,14 @@
 # Dossier Técnico y Arquitectura: SaaS de Huella de Carbono para Minería
 
-> **¡Hola Luchito!**  
-> Preparé este dossier técnico y estratégico para que puedas revisar de primera mano la arquitectura, los requerimientos de sistemas y la ruta tecnológica del proyecto que postulamos al **Crea y Valida 2026 de Corfo Antofagasta**.  
-> La meta es clara: escalar desde lo que ya probamos en laboratorio (**TRL 4**) hasta un SaaS robusto y validado en faena real con 6 contratistas mineros (**TRL 7**). Tu ojo técnico aquí es clave para afinar cada componente.
+> **Bienvenido a la revisión técnica del proyecto.**  
+> En este documento encontrarás la arquitectura de sistemas, las especificaciones funcionales y la hoja de ruta tecnológica de la solución que postulamos al **Crea y Valida 2026 de Corfo Antofagasta**.  
+> El objetivo es compartir contigo cómo abordamos la transición desde el prototipo validado en laboratorio (**TRL 4**) hacia una plataforma SaaS robusta, multi-estándar y validada en entorno operacional con 6 contratistas mineros (**TRL 7**).
 
-**Preparado para:** Luis "Luchito" (Asesor Tecnológico & Aliado TI)  
+**Destinatario:** Asesor Tecnológico / Revisión de Arquitectura de Sistemas  
 **Titular del Proyecto:** Grupo Verdical SpA (Empresa B - Antofagasta)  
-**Financiamiento:** Fondo "Crea y Valida 2026" (Comité de Desarrollo Productivo Regional Antofagasta)  
-**Horizonte de Desarrollo:** 24 Meses (con Hito Crítico de Continuidad en Mes 12)  
-**Evolución Tecnológica:** TRL 4 (Laboratorio validado) $\rightarrow$ TRL 7 (Operacional en terreno con 6 empresas)
+**Marco de Financiamiento:** Crea y Valida 2026 (Comité de Desarrollo Productivo Regional de Antofagasta / Corfo)  
+**Trayectoria Tecnológica:** TRL 4 (Laboratorio validado) $ightarrow$ TRL 7 (Operacional con 6 contratistas)  
+**Horizonte:** 24 Meses (con Hito Crítico de Continuidad en Mes 12)
 
 ---
 
@@ -332,7 +332,7 @@ A continuación se presentan los mockups conceptuales de las tres vistas central
 
 ---
 
-## 6. Siguientes Pasos & Qué Necesitamos Evaluar Juntos (Feedback de Luchito)
+## 6. Siguientes Pasos & Puntos de Decisión Técnica para Evaluar Contigo
 
 1. **Revisión de Arquitectura Cloud:** Analizar los servicios propuestos en AWS (arquitectura serverless vs. contenedores ECS/Fargate) para optimizar costos de infraestructura durante los primeros 12 meses de I+D.
 2. **Evaluación de Modelos de Extracción (LLM vs Document AI):** Definir el modelo de visión multimodal base para las pruebas sobre las facturas y guías de faena del set de datos de prueba de Verdical.

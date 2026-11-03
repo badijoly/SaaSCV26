@@ -1,8 +1,8 @@
 # Dossier Técnico & Arquitectura TI - SaaS Huella de Carbono Minera
 
-> **¡Hola Luchito!** 👋  
-> Bienvenido a este espacio. Aquí dejé consolidada toda la arquitectura de sistemas, modelo de negocio, flujo de etapas y mockups de la solución SaaS que postulamos al fondo **Crea y Valida 2026 de Corfo Antofagasta**.  
-> El objetivo es mostrarte cómo está planteado el escalamiento técnico desde **TRL 4 a TRL 7** y contar con tu feedback y visión técnica experta.
+> **Bienvenido a la documentación técnica del proyecto.**  
+> Aquí encontrarás consolidada la arquitectura de software, el modelo de negocios, el flujo de etapas y los mockups de la solución SaaS que postulamos al fondo **Crea y Valida 2026 de Corfo Antofagasta**.  
+> Esta documentación está pensada para que puedas evaluar directamente el diseño técnico, las decisiones de infraestructura y el plan de escalamiento desde **TRL 4 hasta TRL 7**.
 
 **Proyecto:** Plataforma SaaS de Trazabilidad y Reportabilidad de Huella de Carbono para Proveedores Mineros  
 **Titular:** Grupo Verdical SpA (Empresa B - Antofagasta)  
@@ -12,7 +12,7 @@
 ---
 
 ## 🌐 Ver Presentación Visual Interactiva
-Puedes revisar toda la arquitectura en una experiencia web con diagramas interactivos y diseño dark mode abriendo:  
+Puedes revisar toda la arquitectura en una experiencia web interactiva con diagramas Mermaid y diseño dark mode ingresando a:  
 👉 **[Ver Presentación Web Interactiva en GitHub Pages](https://badijoly.github.io/SaaSCV26/)**  
 *(O abriendo el archivo local [`index.html`](./index.html) en tu navegador).*
 
@@ -25,8 +25,8 @@ Puedes revisar toda la arquitectura en una experiencia web con diagramas interac
 
 ---
 
-## 🚀 Puntos Clave que nos Interesa Revisar Contigo (Feedback de Luchito)
-- **Propuesta de Valor Técnica:** Pipeline de ingesta asistido por IA (Visión/LLM) que lee facturas y guías de faena chilena, resolviendo consumos operativos sin digitación manual.
+## 🚀 Puntos Clave para la Revisión Técnica Contigo
+- **Propuesta de Valor Técnica:** Pipeline de ingesta asistido por IA (Visión/LLM) que procesa facturas y guías de faena chilena, extrayendo consumos operativos sin digitación manual.
 - **Transición TRL:** TRL 4 (validación de scripts de extracción en laboratorio) hacia TRL 7 (despliegue continuo con 6 PYMEs contratistas de la minería de Antofagasta).
 - **Hito de Continuidad:** Mes 12 con compromiso de precisión &ge; 85% en lectura documental y motor de cálculo validado.
 - **Exportabilidad:** Generador de reportes multi-norma (GHG Protocol Scope 1-2-3, ISO 14064, CMF NCG 461/NIIF S2) y expediente probatorio digital inmutable con hash SHA-256.
