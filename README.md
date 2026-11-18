@@ -19,9 +19,10 @@ Puedes revisar toda la arquitectura en una experiencia web interactiva con diagr
 ---
 
 ## 📑 Contenido del Repositorio
-1. **[`index.html`](./index.html):** Presentación web ejecutiva y técnica con diseño dark mode, renderizado interactivo de diagramas Mermaid, tablas de entregables trimestrales y mockups de interfaz.
-2. **[`dossier_tecnico_arquitectura_ti.md`](./dossier_tecnico_arquitectura_ti.md):** Especificación técnica formal en Markdown con el desglose de microservicios, APIs, modelos de IA y gestión de factores.
-3. **[`Postulacion_Crea_y_Valida_Definitiva.pdf`](./Postulacion_Crea_y_Valida_Definitiva.pdf):** Documento oficial consolidado de postulación al concurso Corfo (31 campos de formulario Charly.io).
+1. **[`estrategia_fase2_crea_y_valida.md`](./estrategia_fase2_crea_y_valida.md):** 🚀 **Documento Estratégico Fase 2:** Defensa de I+D (Ley 20.241), benchmarking de mercado (Zero Company, CarbonBox), datos duros de Antofagasta (SICEP, BHP, Centinela) y modelo comercial SaaS B2B con matriz de riesgos.
+2. **[`index.html`](./index.html):** Presentación web ejecutiva y técnica con diseño dark mode, renderizado interactivo de diagramas Mermaid, tablas de entregables trimestrales y mockups de interfaz.
+3. **[`dossier_tecnico_arquitectura_ti.md`](./dossier_tecnico_arquitectura_ti.md):** Especificación técnica formal en Markdown con el desglose de microservicios, APIs, modelos de IA y gestión de factores.
+4. **[`Postulacion_Crea_y_Valida_Definitiva.pdf`](./Postulacion_Crea_y_Valida_Definitiva.pdf):** Documento oficial consolidado de postulación al concurso Corfo (31 campos de formulario Charly.io).
 
 ---
 
